@@ -1,12 +1,15 @@
 h1 {
+
     text-align: center;
-    font-size: 100px;
+    width: 100%;
 }
 
 hr{
-    color: tomato;
+    color: gray;
+    width: 200px;
 }
 
 body {
-    background-color: gray;
+    align-self: auto;
+    background-color: lightblue;
 }
