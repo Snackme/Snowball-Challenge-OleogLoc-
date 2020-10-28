@@ -12,4 +12,13 @@ hr{
 body {
     align-self: auto;
     background-color: lightblue;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+footer {
+    padding-bottom: 20px;
 }
