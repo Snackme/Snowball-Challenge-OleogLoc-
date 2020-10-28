@@ -1,3 +1,16 @@
 h1 {
     text-align: center;
+<<<<<<< Updated upstream
+=======
+    font-size: 100px;
+}
+
+hr{
+    color: tomato;
+    fill: orange;
+}
+
+body {
+    background-color: gray;
+>>>>>>> Stashed changes
 }
