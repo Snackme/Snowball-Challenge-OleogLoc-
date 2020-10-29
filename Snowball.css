@@ -4,15 +4,32 @@ h1 {
     width: 100%;
 }
 
+h2 {
+    font size: 20px;
+}
+
 hr{
     color: gray;
     width: 200px;
 }
 
 body {
+    margin: 0;
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-family: poppins;
+    height: 100vh;
+
     align-self: auto;
     background-color: lightblue;
     text-align: center;
+}
+
+main{
+    background-image: url(Images/qCrgLd.jpg);
 }
 
 ul {
@@ -20,5 +37,6 @@ ul {
 }
 
 footer {
+    color: wheat;
     padding-bottom: 20px;
 }
