@@ -1,8 +1,23 @@
+.main1 {
+    display: flexbox;
+    flex: 1;
+    float: left;
+}
+
+.main2 {
+    display: flexbox;
+    flex: 2;
+    float: right;
+}
+
+.footer {
+    display: flexbox;
+    flex: 3;
+}
 
 main {
     float: left;
 }
-
 
 body {
     background-image: url(Images/qCrgLd.jpg);
@@ -20,27 +35,93 @@ p {
 
 h2 {
     color: wheat;
-    font-size: 20px;
-
+    font-size: 30px;
 }
 
+h3 {
+    color: wheat;
+    font-size: 30px;
+}
 
-.knapp-Download {
+header {
+    display: flex;
+    width: 90%;
+    height: 10vh;
+    margin: auto;
+    align-content: center;
+}
+
+.head-con, nav ul {
+    display: flex;
+    font-size: 25px;
+}
+
+.head-con {
+    flex: 1;
+}
+
+.logo {
+    list-style: none;
+    font-size: 31px;
+}
+
+.logo a {
+    color: chocolate;
+    text-decoration: none;
+}
+
+nav {
+    flex: 2;
+}
+
+a {
+    text-decoration: none;
+    color: chocolate;
+}
+
+.ul1 {
+    justify-content: space-around;
+    list-style: none;
+}
+
+nav ul li {
+    background: transparent;
+    float: center;
+}
+
+/*.home {
+    cursor: pointer;
     border: 2px solid #0a0506;
     background: transparent;
+    float: center;
+
 }
 
-h1 a {
+.knapp-download {
+    cursor: pointer;
+    border: 2px solid #0a0506;
+    background: transparent;
+    display: inline-block;
+    float: right;
+}
+*/
+
+/*h1 a {
     cursor: pointer;
     text-decoration: none;
     color: tomato;
 }
+*/
 
 ul {
     list-style: none;
 }
 
 footer {
+    position: absolute;
+    bottom: 0%;
     text-align: center;
     color: wheat;
+    padding-bottom: 20px;
+    padding-left: 500px;
 }
