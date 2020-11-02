@@ -1,18 +1,8 @@
-h1 {
 
-    text-align: center;
-    width: 100%;
+main{
+    background-image: url(Images/qCrgLd.jpg);
+    image size:
 }
-
-h2 {
-    font size: 20px;
-}
-
-hr{
-    color: gray;
-    width: 200px;
-}
-
 body {
     margin: 0;
     padding: 0;
@@ -21,16 +11,36 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     font-family: poppins;
-    height: 100vh;
 
     align-self: auto;
     background-color: lightblue;
     text-align: center;
 }
 
-main{
-    background-image: url(Images/qCrgLd.jpg);
+h2 {
+    font size: 20px;
 }
+
+.knapp-Download {
+    border: 3px solid #0a0506;
+    background: transparent;
+    
+}
+
+h1 a{
+    cursor: pointer;
+    text-decoration: none;
+    color: tomato;
+
+}
+
+hr{
+    padding: 3px;
+    color: gray;
+    width: 200px;
+    
+}
+
 
 ul {
     list-style: none;
