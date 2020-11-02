@@ -1,52 +1,46 @@
 
-main{
-    background-image: url(Images/qCrgLd.jpg);
-    image size:
+main {
+    float: left;
 }
-body {
-    margin: 0;
-    padding: 0;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    font-family: poppins;
 
+
+body {
+    background-image: url(Images/qCrgLd.jpg);
     align-self: auto;
     background-color: lightblue;
-    text-align: center;
+}
+
+ul {
+    color: wheat;
+}
+
+p {
+    color: wheat;
 }
 
 h2 {
-    font size: 20px;
+    color: wheat;
+    font-size: 20px;
+
 }
+
 
 .knapp-Download {
-    border: 3px solid #0a0506;
+    border: 2px solid #0a0506;
     background: transparent;
-    
 }
 
-h1 a{
+h1 a {
     cursor: pointer;
     text-decoration: none;
     color: tomato;
-
 }
-
-hr{
-
-    color: gray;
-    width: 200px;
-    
-}
-
 
 ul {
     list-style: none;
 }
 
 footer {
+    text-align: center;
     color: wheat;
-    padding-bottom: 20px;
 }
