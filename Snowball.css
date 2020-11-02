@@ -1,27 +1,23 @@
 .main1 {
-    display: flexbox;
     flex: 1;
     float: left;
+    text-align: center;
+    padding-left: 20px;
 }
 
 .main2 {
-    display: flexbox;
     flex: 2;
     float: right;
+    text-align: center;
 }
 
-.footer {
-    display: flexbox;
-    flex: 3;
+.main_Download,.main_Contact{
+    text-align: center;
 }
 
-main {
-    float: left;
-}
 
 body {
     background-image: url(Images/qCrgLd.jpg);
-    align-self: auto;
     background-color: lightblue;
 }
 
@@ -32,6 +28,9 @@ ul {
 p {
     color: wheat;
 }
+h1{
+    color: wheat;
+}
 
 h2 {
     color: wheat;
@@ -40,7 +39,7 @@ h2 {
 
 h3 {
     color: wheat;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 header {
@@ -118,10 +117,10 @@ ul {
 }
 
 footer {
-    position: absolute;
-    bottom: 0%;
+    display: flex;
     text-align: center;
     color: wheat;
-    padding-bottom: 20px;
-    padding-left: 500px;
+    width: 25%;
+    padding-left: 37%;
+    padding-top: 50px;
 }
