@@ -3,7 +3,7 @@
     float: left;
     text-align: center;
     padding-left: 20px;
-    min-width: 500px;
+    min-width: 450px;
     width: 45%;
 }
 
@@ -11,7 +11,7 @@
     flex: 2;
     float: right;
     text-align: center;
-    min-width: 500px;
+    min-width: 450px;
     width: 45%;
 }
 
