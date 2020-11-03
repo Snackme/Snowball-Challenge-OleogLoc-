@@ -3,12 +3,16 @@
     float: left;
     text-align: center;
     padding-left: 20px;
+    min-width: 500px;
+    width: 45%;
 }
 
 .main2 {
     flex: 2;
     float: right;
     text-align: center;
+    min-width: 500px;
+    width: 45%;
 }
 
 .main_Download,.main_Contact{
@@ -17,7 +21,7 @@
 
 
 body {
-    background-image: url(Images/qCrgLd.jpg);
+    background-image: url(../Images/qCrgLd.jpg);
     background-color: lightblue;
 }
 
