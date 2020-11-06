@@ -116,7 +116,7 @@ body {
 
 button{
     width: 60%;
-    max-width: 375px;
+    max-width: 400px;
     height: 100px;
     margin: 20px;
     text-decoration: none;
@@ -125,9 +125,7 @@ button{
   background-color: #4CAF50;
   
 }
-#buttons a{
-    color: yellow;
-}
+
 
 
 @media screen and (max-width:935px) and (min-width:426px){
